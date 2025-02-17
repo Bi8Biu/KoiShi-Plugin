@@ -1,0 +1,84 @@
+plugins:
+  group:server:
+    $collapsed: true
+    server:3i0pcr:
+      port: 5140
+      maxPort: 5149
+    ~server-satori:yofjv8: {}
+    ~server-temp:tsnns5: {}
+  group:basic:
+    ~admin:kxttfi: {}
+    ~bind:3ptkvt: {}
+    commands:vg9gbn: {}
+    help:fd6ait: {}
+    http:tgttx5: {}
+    ~inspect:6uj5vf: {}
+    locales:5cff8e: {}
+    proxy-agent:4iqoxc: {}
+    rate-limit:8yq8sc: {}
+    telemetry:bu8chs: {}
+  group:console:
+    $collapsed: true
+    actions:pmm76r: {}
+    analytics:de3ynt: {}
+    android:1miwq3:
+      $if: env.KOISHI_AGENT?.includes('Android')
+    ~auth:dghy7p: {}
+    config:dvqkq2: {}
+    console:tzsljp:
+      open: true
+    dataview:wuohfi: {}
+    desktop:iui0xg:
+      $if: env.KOISHI_AGENT?.includes('Desktop')
+    explorer:66byn5: {}
+    logger:flg0mr: {}
+    insight:l0m0q1: {}
+    market:8cqyri:
+      search:
+        endpoint: https://registry.koishi.chat/index.json
+    notifier:rjzhp6: {}
+    oobe:1hiptj: {}
+    sandbox:1fztjz: {}
+    status:g2o5qz: {}
+    theme-vanilla:2ior1k: {}
+  group:storage:
+    $collapsed: true
+    ~database-mongo:2qxpwm:
+      database: koishi
+    ~database-mysql:cr21oo:
+      database: koishi
+    ~database-postgres:bv24gt:
+      database: koishi
+    database-sqlite:bln6cq:
+      path: data/koishi.db
+    assets-local:csiktl: {}
+  group:adapter:
+    $collapsed: true
+    ~adapter-dingtalk:3vjk6t: {}
+    ~adapter-discord:1wzdhs: {}
+    ~adapter-kook:u56g6r: {}
+    ~adapter-lark:epoazb: {}
+    ~adapter-line:gm2hkk: {}
+    ~adapter-mail:wupezk: {}
+    ~adapter-matrix:998u36: {}
+    ~adapter-qq:fuvwul: {}
+    ~adapter-satori:oru6xd: {}
+    ~adapter-slack:0ysq7x: {}
+    ~adapter-telegram:0z5sxm: {}
+    ~adapter-wechat-official:ksttar: {}
+    ~adapter-wecom:2yj4mb: {}
+    ~adapter-whatsapp:e69c1c: {}
+    adapter-onebot:c4x7q1:
+      selfId: '2469599244'
+      token: '2472104875'
+    ~adapter-zulip:qty5il: {}
+  group:develop:
+    $if: env.NODE_ENV === 'development'
+    hmr:t608n3:
+      root: .
+  ~qq-estimate:c9shi3: {}
+  cmd-reaction:ccvuga:
+    bar: '123'
+    commandList:
+      - help
+prefix: []
