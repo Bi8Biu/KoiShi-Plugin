@@ -7,6 +7,7 @@ plugins:
     ~server-satori:yofjv8: {}
     ~server-temp:tsnns5: {}
   group:basic:
+    $collapsed: true
     ~admin:kxttfi: {}
     ~bind:3ptkvt: {}
     commands:vg9gbn: {}
@@ -35,7 +36,7 @@ plugins:
     insight:l0m0q1: {}
     market:8cqyri:
       search:
-        endpoint: https://registry.koishi.chat/index.json
+        endpoint: https://koi.nyan.zone/registry/index.json
     notifier:rjzhp6: {}
     oobe:1hiptj: {}
     sandbox:1fztjz: {}
@@ -76,9 +77,15 @@ plugins:
     $if: env.NODE_ENV === 'development'
     hmr:t608n3:
       root: .
-  ~qq-estimate:c9shi3: {}
   cmd-reaction:ccvuga:
     bar: '123'
     commandList:
       - help
+  ~qq-tools:giw9mv:
+    acrostic:
+      type: 七言
+    xjj: {}
+  puppeteer:keoslw:
+    ignoreHTTPSErrors: true
+  voice-pkg:3f1ouh: {}
 prefix: []
