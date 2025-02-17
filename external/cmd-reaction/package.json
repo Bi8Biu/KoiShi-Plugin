@@ -1,0 +1,29 @@
+{
+  "name": "koishi-plugin-cmd-reaction",
+  "description": "为触发指令的消息添加回应表情,适用于QQ群消息【自用】",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Bi8Biu/KoiShi-Plugin/tree/cmd-reaction/external/cmd-reaction",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bi8Biu/KoiShi-Plugin/tree/cmd-reaction/external/cmd-reaction"
+  },
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "reaction",
+    "cmd-reaction"
+  ],
+  "devDependencies": {},
+  "peerDependencies": {
+    "koishi": "^4.18.7"
+  }
+}
