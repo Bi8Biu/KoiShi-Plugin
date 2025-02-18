@@ -1,0 +1,27 @@
+{
+  "name": "koishi-plugin-scold",
+  "description": "扣字骂鲨臂",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "homepage": "https://github.com/Bi8Biu/KoiShi-Plugin/tree/scold/external/scold",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bi8Biu/KoiShi-Plugin/tree/scold/external/scold"
+  },
+  "license": "MIT",
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "devDependencies": {},
+  "peerDependencies": {
+    "koishi": "^4.18.7"
+  }
+}
