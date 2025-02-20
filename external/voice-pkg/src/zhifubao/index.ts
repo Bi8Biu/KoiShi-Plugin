@@ -5,7 +5,8 @@ export const name = "zhifubao";
 export function apply(ctx: Context) {
   ctx
     .command("支付宝到账 <money:number>")
-    .usage("生成支付宝到账语音")
+    .usage("功能：生成支付宝到账语音")
+    .example("支付宝到账 100")
     .action(async ({ session }, money) => {
       if (money === undefined) {
         return "请输入金额";

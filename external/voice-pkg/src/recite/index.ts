@@ -5,7 +5,8 @@ export const name = "recite";
 export function apply(ctx: Context) {
   ctx
     .command("念 <text:string>")
-    .usage("念一段文字")
+    .usage("功能：念一段文字")
+    .example("念 你好")
     .action(async ({ session }, text) => {
       if (!text.trim()) {
         return "请输入文字";

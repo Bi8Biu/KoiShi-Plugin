@@ -36,7 +36,7 @@ plugins:
     insight:l0m0q1: {}
     market:8cqyri:
       search:
-        endpoint: https://koi.nyan.zone/registry/index.json
+        endpoint: https://koishi-registry.yumetsuki.moe/index.json
     notifier:rjzhp6: {}
     oobe:1hiptj: {}
     sandbox:1fztjz: {}
@@ -74,17 +74,10 @@ plugins:
       token: '2472104875'
     ~adapter-zulip:qty5il: {}
   group:develop:
+    $collapsed: true
     $if: env.NODE_ENV === 'development'
     hmr:t608n3:
       root: .
-  cmd-reaction:ccvuga:
-    bar: '123'
-    commandList:
-      - help
-  ~qq-tools:giw9mv:
-    acrostic:
-      type: 七言
-    xjj: {}
   puppeteer:keoslw:
     ignoreHTTPSErrors: true
   voice-pkg:3f1ouh: {}
