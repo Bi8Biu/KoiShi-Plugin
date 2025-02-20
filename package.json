@@ -64,7 +64,7 @@
     "@koishijs/plugin-bind": "^1.5.1",
     "@koishijs/plugin-commands": "^3.5.4",
     "@koishijs/plugin-config": "^2.8.6",
-    "@koishijs/plugin-console": "^5.30.4",
+    "@koishijs/plugin-console": "5.30.5",
     "@koishijs/plugin-database-sqlite": "^4.6.0",
     "@koishijs/plugin-explorer": "^1.5.5",
     "@koishijs/plugin-help": "^2.4.5",
@@ -86,12 +86,14 @@
     "koishi-plugin-adapter-onebot": "6.8.0",
     "koishi-plugin-android": "^0.0.1",
     "koishi-plugin-assets-local": "^3.3.2",
+    "koishi-plugin-cmd-reaction": "1.0.0",
     "koishi-plugin-dataview": "^2.6.1",
     "koishi-plugin-desktop": "^1.0.0",
     "koishi-plugin-puppeteer": "^3.9.0",
-    "koishi-plugin-qq-estimate": "0.1.1",
     "koishi-plugin-rate-limit": "^2.0.4",
+    "koishi-plugin-scold": "1.0.0",
     "koishi-plugin-telemetry": "^0.2.3",
-    "koishi-plugin-theme-vanilla": "^1.1.0"
+    "koishi-plugin-theme-vanilla": "^1.1.0",
+    "koishi-plugin-voice-pkg": "1.0.1"
   }
 }
