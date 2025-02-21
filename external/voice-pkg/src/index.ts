@@ -7,6 +7,9 @@ import * as pixiv from "./pixiv";
 import * as zhifubao from "./zhifubao";
 import * as recite from "./recite";
 import * as yskfc from "./yskfc";
+import * as dialect from "./dialect";
+import * as xhz from "./xhz";
+import * as and from "./and";
 export const name = "voice-pkg";
 
 export interface Config {}
@@ -22,4 +25,7 @@ export function apply(ctx: Context) {
   ctx.plugin(zhifubao);
   ctx.plugin(recite);
   ctx.plugin(yskfc);
+  ctx.plugin(dialect);
+  ctx.plugin(xhz);
+  ctx.plugin(and);
 }
