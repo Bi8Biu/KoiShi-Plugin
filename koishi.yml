@@ -74,6 +74,7 @@ plugins:
       token: '2472104875'
     ~adapter-zulip:qty5il: {}
   group:develop:
+    $collapsed: true
     $if: env.NODE_ENV === 'development'
     hmr:t608n3:
       root: .
@@ -84,4 +85,5 @@ plugins:
       - help
       - 夹子
   voice-pkg:n1dg80: {}
+  video-pkg:xnvcot: {}
 prefix: []
