@@ -84,6 +84,7 @@ plugins:
       - 骂
       - help
       - 夹子
-  voice-pkg:n1dg80: {}
-  video-pkg:xnvcot: {}
+  ~voice-pkg:n1dg80: {}
+  ~video-pkg:xnvcot: {}
+  image-pkg:z10ni3: {}
 prefix: []
