@@ -6,3 +6,4 @@
 - [voice-pkg](https://github.com/Bi8Biu/KoiShi-Plugin/tree/voice-pkg/external/voice-pkg)
 - [scold](https://github.com/Bi8Biu/KoiShi-Plugin/tree/scold/external/scold)
 - [video-pkg](https://github.com/Bi8Biu/KoiShi-Plugin/tree/video-pkg/external/video-pkg)
+- [image-pkg](https://github.com/Bi8Biu/KoiShi-Plugin/tree/image-pkg/external/image-pkg)
